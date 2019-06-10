@@ -1,0 +1,25 @@
+<order status="U">	
+	<id>101</id>
+	<products>
+		<product>
+			<id>10282</id>
+			<name>liril soap</name>
+			<brand>liril</brand>
+			<price>25</price>
+		</product>
+		<product>
+			<id>732633</id>
+			<name>liril deo</name>
+			<brand>liril</brand>
+			<price>255</price>
+		</product>
+	</products>
+	<user>
+		<id>A27283</id>
+		<payment>
+			<type>card</type>
+			<number>**********4786</number>
+		</payment>
+		
+	</user>
+</order>

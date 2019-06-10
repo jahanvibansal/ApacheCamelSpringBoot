@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.java</groupId>
+	<artifactId>CamelDemo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.5.RELEASE</version>
+	</parent>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-spring-boot-starter -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-spring-boot-starter</artifactId>
+			<version>3.0.0-M3</version>
+		</dependency>
+	</dependencies>
+	<modules>
+		<module>CamelDemo.One</module>
+		<module>CamelDemo.Two</module>
+		<module>CamelDemo.Three</module>
+		<module>CamelDemo.Four</module>
+		<module>CamelDemo.Five</module>
+		<module>CamelDemo.Six</module>
+		<module>CamelDemo.Seven</module>
+		<module>CamelDemo.Eight</module>
+		<module>CamelDemo.Nine</module>
+		<module>CamelDemo.Ten</module>
+		<module>CamelDemo.Transform_toCsv</module>
+	</modules>
+</project>
