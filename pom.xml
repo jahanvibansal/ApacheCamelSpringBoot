@@ -31,5 +31,6 @@
 		<module>CamelDemo.Nine</module>
 		<module>CamelDemo.Ten</module>
 		<module>CamelDemo.Transform_toCsv</module>
+		<module>CamelDemo.Enricher</module>
 	</modules>
 </project>
